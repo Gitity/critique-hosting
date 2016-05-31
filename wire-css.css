@@ -1,0 +1,124 @@
+/*Docs */
+body {
+	font-family: "Libre Baskerville";
+	color:#636669;
+}
+p {
+	margin:0;
+}
+/*Banner */
+header {
+	height:650px;
+	width:1423px;
+}
+
+.hero {
+	background-image:url('images/fog-650.png');
+	background-repeat: no-repeat;
+	height:650px;
+	width:1423px;
+	margin:0;
+}
+.cover {
+	height:650px;
+	width:1423px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	background:rgba(0, 0, 0, 0.6);
+}
+.caption {
+	display: inline-block;
+	z-index: 3;
+	font-family: "Libre Baskerville";
+	font-weight:normal;
+	position: absolute;
+	color:#898b90;
+
+}
+.heading {
+	left:40%;
+	top:24px;
+	font-size: 32px;
+}
+.title {
+	left:32%;
+	top:34%;
+	font-size: 30px;
+	letter-spacing: 6px;
+	font-style:normal;
+	text-align: center;
+	line-height: 55px;
+	color:#57585c;
+}
+
+/*Story*/
+.story-box {
+	padding: 10px 50px 10px 50px;
+	text-align: center;
+	background: #DEE1E4;
+}
+.story-box p {
+	font-family: "Libre Baskerville", serif;
+	font-weight:normal;
+	font-style:italic;
+	border-radius: 3%;
+	padding:10px 40px 10px 40px;
+	white-space: pre-line;
+	max-width: 600px;
+	display:inline-block;
+	text-align: left;
+	font-size:18px;
+	letter-spacing: 2px;
+
+}
+h3 {
+	text-align: center;
+	font-style:italic;
+	letter-spacing: 3px;
+	font-size:26px;
+}
+em {
+	font-weight:bold;
+	display: table;
+	margin:auto;
+	font-style: normal;
+	font-size:1.4em;
+}
+	/*Story/Items*/
+.dot-box {
+	background: #DEE1E4;
+	display: inline-block;
+	max-width: 300px;
+}
+
+.dot {
+	height:20px;
+	width:20px;
+	border-radius: 50%;
+	background: radial-gradient(
+		circle,
+		#636669,
+		#313335);
+	margin-left:60px;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+
+/*Footer*/
+footer {
+	background:#d9d9d9;
+	height:200px;
+	width:100%;
+}
+footer p {
+	text-align: center;
+	padding-top:45px;
+}
+
+
+/* */
+/* */
+/*# sourceMappingURL=wire-css.css.map */
